@@ -1,0 +1,175 @@
+/*地图的公共样式*/
+
+html {
+    /* background-color: #f3f4f8; */
+}
+
+
+
+.map-div {
+    height: 280px;
+}
+.el-tabs__nav{
+     margin-left: 110px;
+}
+.el-input--mini .el-input__inner {
+    height: 35px;
+    line-height: 35px;
+}
+
+#wrap-bottpm-no {
+    background-color: #f3f4f8;
+}
+
+#wrap {
+    padding-bottom: 50px;
+    background-color: #f3f4f8;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 18px !important;
+    margin-left: 0.2rem;
+    /* border-left: solid 3px #3D8EEF; */
+    padding-left: 10px;
+    /* margin-bottom: 10px; */
+    margin-top: 12px;
+    padding-bottom: 10px;
+}
+
+.name span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name span:last-child {
+    width: 90%;
+}
+
+.span1 {
+    display: inline-block;
+    height: 30px;
+    border: solid 0.03rem #409eff;
+    margin-right: 8px;
+}
+
+
+/**/
+
+.botom-fix-div {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botom-fix-div button {
+    border: none;
+    font-size: 18px;
+    width: 28%;
+    height: 100%;
+    color: #ffffff;
+    background: #3D8EEF;
+}
+
+.botom-fix-div .el-button--primary:focus,
+.el-button--primary:hover {
+    background: #3D8EEF;
+}
+
+.buttom-back {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 888;
+    font-size: 18px;
+    color: #ffffff;
+    background: #3D8EEF;
+    border: none
+}
+
+hr {
+    border: none;
+    color: #dddddd;
+    width: 100%;
+    border-bottom: solid 1px #dddddd;
+}
+
+
+/*中间居中内容的宽度*/
+
+.contents {
+    width: 90%;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+
+/*信息展示模块*/
+
+.mass1 {
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.bgcolor th,
+.bgcolor tr {
+    background-color: #dddddd;
+}
+
+.hide .el-upload--picture-card {
+    display: none;
+}
+
+.el-upload--picture-card {
+    display: inline-block;
+    /* margin-left: 15px; */
+}
+
+.el-upload-list--picture-card .el-upload-list__item {
+    padding: 8px;
+}
+
+
+/*无数据展示*/
+
+.no-data {
+    padding: 15px;
+    font-size: 16px;
+}
+
+
+/*登录页面*/
+
+#login .item .el-input .el-input__inner {
+    border: none;
+}
+
+
+/*刷新当前位置icon*/
+
+.map-div {
+    position: relative;
+}
+
+.updata-address-div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #ffffff;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.updata-address-div p {
+    text-align: center;
+}
